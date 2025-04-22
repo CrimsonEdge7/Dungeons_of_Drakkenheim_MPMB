@@ -29,74 +29,74 @@ SourceList["DoD"] = {
 
 //Mutations
 FeatsList["mutations"] = {
-	name : "Mutations [Contamination Mutations]",
+	name : "Mutations",
 	source : [["DoD", 223]],
 	regExpSearch : /mutations/i,
 	description : "A mutation may be gained when your Contamination level increases.",
 	descriptionFull : "Each time a character gains a contamination level, it rolls 1d6. If the result is equal to or less than the character’s current contamination level the creature gains a mutation.",
 	choices : ["Rasping", "Wasting", "Rotting", "Molting", "Shedding", "Lambent Glow", "Ocular Tumors", "Spiked Growths", "Aquatic Adaptation", "Amorphous Form", "Chitinous Skin", "Cyclopean Vision", "Spatial Displacement", "Tentacled Limb", "Spider Climb", "Whispering Voices", "Belly Maw", "Eyeless Sight", "Arcane Blood (Spell Slot)", "Arcane Blood (HP)", "Arcane Blood (2x HP)"],
 	"rasping" : {
-		name: "Rasping [Contamination Mutation]",
+		name: "Rasping [Mutation]",
 		description : "I can only speak in a halting gurgle. If I have 4+ Contamination, I can't speak.",
 		descriptionFull : "My vocal cords warp, and I may only speak in a halting gurgle. If I have 4 or more contamination levels, my tongue rots and falls out, and I can no longer speak.",	
 	},
 	"wasting" : {
-		name: "Wasting [Contamination Mutation]",
+		name: "Wasting [Mutation]",
 		description : "2d6 fingernails/teeth/toenails fall out for each Contamination level I have.",
 		descriptionFull : "My fingernails, teeth, and toenails start falling out. 2d6 fall out for each contamination level I have gained.",	
 	},
 	"rotting" : {
-		name: "Rotting [Contamination Mutation]",
+		name: "Rotting [Mutation]",
 		description : "My lips, nose, and ears blacken and wither. If I have 4+ Contamination, they fall off but I can still speak/hear.",
 		descriptionFull : "My lips, nose, and ears blacken and wither. If I reach 4 or more contamination levels, they rot and fall off. I can still speak and hear, however.",	
 	},
 	"molting" : {
-		name: "Molting [Contamination Mutation]",
+		name: "Molting [Mutation]",
 		description : "Blisters, welts, and lesions appear and burst/peel off. If I have 4+ Contamination, my skin sloughs off.",
 		descriptionFull : "Painful blisters, welts, and multicoloured lesions appear all over my skin, which burst and peel off painfully, exposing the raw sinew underneath. Once I reach 4 contamination levels, my skin entirely sloughs off.",	
 	},
 	"shedding" : {
-		name: "Shedding [Contamination Mutation]",
+		name: "Shedding [Mutation]",
 		description : "Patches of my hair fall out when I gain Contamination. If I have 4+ Contamination, all of my hair falls out.",
 		descriptionFull : "Each time I gain a contamination level, some of my hair falls out in patches. Once I reach 4 or more contamination levels, all hair on my body completely falls out.",	
 	},
 	"lambent glow" : {
-		name: "Lambent Glow [Contamination Mutation]",
+		name: "Lambent Glow [Mutation]",
 		description : "I emit 10 feet of Dim Light. If I have 4+ Contamination, I emit 30 feet of Bright Light instead.",
 		descriptionFull : "I emit a dim octarine glow to a range of 10 feet. If I have 4 or more contamination levels, I instead emit bright light to a range of 30 feet.",	
 	},
 	"ocular tumors" : {
-		name: "Ocular Tumors [Contamination Mutation]",
+		name: "Ocular Tumors [Mutation]",
 		description : "I gain an extra eyeball somewhere on my body for each of my Contamination levels. If I have 4+ Contamination, I can see in all directions.",
 		descriptionFull : "An eyeball opens somewhere on my body for each contamination level you have gained. If you have 4 or more contamination levels, you can see in all directions.",	
 	},
 	"spiked growths" : {
-		name: "Spiked Growths [Contamination Mutation]",
+		name: "Spiked Growths [Mutation]",
 		description : "At the start of each of my turns, I deal 1d10 piercing damage to any creature I am grappling.",
 		descriptionFull : "At the start of each of my turns, I deal 5 (1d10) piercing damage to any creature I am grappling.",	
 	},
 	"aquatic adaptation" : {
-		name: "Aquatic Adaptation [Contamination Mutation]",
+		name: "Aquatic Adaptation [Mutation]",
 		description : "I sprout fins & gills, gain a Swim Speed equal to my Speed, and can breathe underwater. If I have 4+ Contamination, I can only breathe underwater but can hold my breath for 1 hour.",
 		descriptionFull : "I sprout fish-like fins and gills. I gain a swimming speed equal to my land speed and can breathe underwater. If I have 4 or more contamination levels, I can only breathe underwater; but can hold my breath outside water for up to 1 hour.",	
 	},
 	"amorphous form" : {
-		name: "Amorphous Form [Contamination Mutation]",
+		name: "Amorphous Form [Mutation]",
 		description : "My bones & organs are gelatinous. I can move through a space as narrow as 6 inches wide without squeezing.",
 		descriptionFull : "My bones and organs become gelatinous. I can move through a space as narrow as 6 inches wide without squeezing.",	
 	},
 	"chitinous skin" : {
-		name: "Chitinous Skin [Contamination Mutation]",
+		name: "Chitinous Skin [Mutation]",
 		description : "I grow shell-like growths, giving me +1 AC. If I have 4+ Contamination, this bonus increases to +2.",
 		descriptionFull : "Shell-like growths appear all over my body, giving me a +1 bonus to AC. If I have four or more contamination levels, this bonus increases to +2.",	
 	},
 	"cyclopean vision" : {
-		name: "Cyclopean Vision [Contamination Mutation]",
+		name: "Cyclopean Vision [Mutation]",
 		description : "My eyes merge into a single central eye which can emit a beam as a ranged spell attack using my Int modifier. If it hits, it deals 2d6 Radiant damage.",
 		descriptionFull : "My eyes merge into a single central eye which can emit an energy beam as a ranged spell attack using my Intelligence modifier for the attack roll. If it hits, it deals 2d6 radiant damage.",	
 	},
 	"spatial displacement" : {
-		name: "Spatial Displacement [Contamination Mutation]",
+		name: "Spatial Displacement [Mutation]",
 		limfeaname : "Spatial Displacement",
 		usages : 1, //replace with Contamination level manually?
 		recovery : "long rest",
@@ -112,37 +112,37 @@ FeatsList["mutations"] = {
 		descriptionFull : "I can cast misty step once for each contamination level I have gained. I regain these uses when I finish a long rest.",	
 	},
 	"tentacled limb" : {
-		name: "Tentacled Limb [Contamination Mutation]",
+		name: "Tentacled Limb [Mutation]",
 		description : "One of my arms becomes a tentacle. When I make a melee attack on my turn, my reach increases by 5 feet.",
 		descriptionFull : "One of my arms becomes a fleshy tentacle. When I make a melee attack on my turn, increase my reach by 5 feet.",	
 	},
 	"spider climb" : {
-		name: "Spider Climb [Contamination Mutation]",
+		name: "Spider Climb [Mutation]",
 		description : "I gain a Climb Speed equal to my Speed. I can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
 		descriptionFull : "I gain a climb speed equal to my walking speed. I can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",	
 	},
 	"whispering voices" : {
-		name: "Whispering Voices [Contamination Mutation]",
+		name: "Whispering Voices [Mutation]",
 		description : "I gain telepathy to a range of 10 feet, but other people hear it as their own voice. If I have 4+ Contamination, the range extends to 60 feet.",
 		descriptionFull : "I gain telepathy to a range of 10 feet, but other people hear it as their own voice. If I have 4 or more contamination levels, the range extends to 60 feet.",	
 	},
 	"belly maw" : {
-		name: "Belly Maw [Contamination Mutation]",
+		name: "Belly Maw [Mutation]",
 		description : "A mouth appears on my stomach, which I can use to make unarmed strikes. If I hit, I deal 1d6 + Str mod Piercing damage.",
 		descriptionFull : "A toothy mouth appears on my stomach, which I can use to make unarmed strikes. If I hit with it, I deal piercing damage equal to 1d6 + my Strength modifier.",	
 	},
 	"eyeless sight" : {
-		name: "Eyeless Sight [Contamination Mutation]",
+		name: "Eyeless Sight [Mutation]",
 		description : "My eyes become milky, and I gain blindsight to 10 feet. If I have 4+ Contamination, my eyes rot out. My blindsight increases to 30 feet, but I am blind beyond this radius.",
 		descriptionFull : "My eyes become milky orbs, and I gain blindsight to a range of 10 feet. If I have 4 or more contamination levels, my eyes rot out, and dim octarine light burns in the sockets. My blindsight increases to 30 feet, but I am blind beyond this radius.",	
 	},
 	"arcane blood (spell slot)" : {
-		name: "Arcane Blood (Spell Slot) [Contamination Mutation]",
+		name: "Arcane Blood (Spell Slot) [Mutation]",
 		description : "I gain an additional spell slot of the highest level I can cast (to a maximum of 5th level). If I don’t have spell slots, my max HP increases by my level. Double with 4+ Contamination.",
 		descriptionFull : "I gain an additional spell slot of the highest level I can cast (to a maximum of 5th level). If I don’t have spell slots, my hit point maximum increases by an amount equal to my level. Double with 4 or more contamination levels.",	
 	},
 	"arcane blood (hp)" : {
-		name: "Arcane Blood (HP) [Contamination Mutation]",
+		name: "Arcane Blood (HP) [Mutation]",
 		calcChanges: {
 			hp: function (totalHD) {
 				return [totalHD, '\n + ' + totalHD + ' from Arcane Blood (' + (totalHD) + ')', true];
@@ -152,7 +152,7 @@ FeatsList["mutations"] = {
 		descriptionFull : "I gain an additional spell slot of the highest level I can cast (to a maximum of 5th level). If I don’t have spell slots, my hit point maximum increases by an amount equal to my level. Double with 4 or more contamination levels.",	
 	},
 	"arcane blood (2x hp)" : {
-		name: "Arcane Blood (2x HP) [Contamination Mutation]",
+		name: "Arcane Blood (2x HP) [Mutation]",
 		calcChanges: {
 			hp: function (totalHD) {
 				return [totalHD * 2, '\n + ' + totalHD + ' \xD7 2 from Arcane Blood (' + (totalHD * 2) + ')', true];
